@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+  }
+  
+  .main {
+    background-image: url("images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+  }
+  .main .box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    height: 644px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    height: 100px;
+  }
+  .nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+  }
+  .nav button {
+    position: relative;
+    z-index: 10;
+  }
+  .btn {
+    padding: 3px 8px;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .btn-red {
+    background-color: red;
+  }
+  .hero {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 0px 30px;
+    height: calc(100% - 100px);
+  }
+  .hero > :nth-child(1) {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .hero > :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .hero :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+  }
+  .hero-buttons :nth-child(2) {
+    padding: 8px 24px;
+    font-size: 18px;
+  }
+  .hero-buttons input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    outline: none;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    color: white;
+  }
+  .first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+  }
+  .secImg {
+    position: relative;
+  }
+  .secImg img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+  }
+  .secImg video {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+  }
+  .first h1 {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .first p {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .seperation {
+    border: 3px solid rgb(54, 54, 54);
+  }
+  .faq {
+    color: white;
+    background: black;
+    padding: 35px;
+  }
+  .faq h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+  .faqbox {
+    background: #272727;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 34px auto;
+    cursor: pointer;
+    max-width: 60vw;
+  }
+  
+  .faqbox:hover {
+    transition: all 0.5s;
+    background: rgb(23, 23, 23);
+  }
+  footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  footer .questions {
+    padding: 34px 0;
+    font-size: 25px;
+  }
+  .footer {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
+  .footer a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .footer :hover{
+    color: red;
+  }
+   @media(min-width:800px){
+
+   }
